@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+error_screenshot.png
+error_page.html
+error_select_*.png
+*.tmp
+.DS_Store
