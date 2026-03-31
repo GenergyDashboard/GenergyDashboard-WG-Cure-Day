@@ -1,0 +1,229 @@
+{
+  "site": "WG Cure Day Hospital",
+  "capacity_kwp": 60,
+  "monthly": [
+    {
+      "month": "2024-08",
+      "actual_kwh": 5207.3,
+      "predicted_kwh": 4263.45
+    },
+    {
+      "month": "2024-09",
+      "actual_kwh": 6712.1,
+      "predicted_kwh": 7113.01
+    },
+    {
+      "month": "2024-10",
+      "actual_kwh": 8616.4,
+      "predicted_kwh": 7758.4
+    },
+    {
+      "month": "2024-11",
+      "actual_kwh": 7917.3,
+      "predicted_kwh": 8158.01
+    },
+    {
+      "month": "2024-12",
+      "actual_kwh": 10046.8,
+      "predicted_kwh": 9611.65
+    },
+    {
+      "month": "2025-01",
+      "actual_kwh": 9065.1,
+      "predicted_kwh": 9517.39
+    },
+    {
+      "month": "2025-02",
+      "actual_kwh": 7092.5,
+      "predicted_kwh": 7858.54
+    },
+    {
+      "month": "2025-03",
+      "actual_kwh": 7711.4,
+      "predicted_kwh": 7588.3
+    },
+    {
+      "month": "2025-04",
+      "actual_kwh": 5532.5,
+      "predicted_kwh": 6299.86
+    },
+    {
+      "month": "2025-05",
+      "actual_kwh": 5870.2,
+      "predicted_kwh": 5469.23
+    },
+    {
+      "month": "2025-06",
+      "actual_kwh": 5164.9,
+      "predicted_kwh": 4796.2
+    },
+    {
+      "month": "2025-07",
+      "actual_kwh": 4843.6,
+      "predicted_kwh": 5142.46
+    },
+    {
+      "month": "2025-08",
+      "actual_kwh": 5976.7,
+      "predicted_kwh": 6167.8
+    },
+    {
+      "month": "2025-09",
+      "actual_kwh": 6896.3,
+      "predicted_kwh": 6970.75
+    },
+    {
+      "month": "2025-10",
+      "actual_kwh": 9064.3,
+      "predicted_kwh": 8417.87
+    },
+    {
+      "month": "2025-11",
+      "actual_kwh": 9963.4,
+      "predicted_kwh": 8883.16
+    },
+    {
+      "month": "2025-12",
+      "actual_kwh": 8336.5,
+      "predicted_kwh": 7292.45
+    },
+    {
+      "month": "2026-01",
+      "actual_kwh": 11099.3,
+      "predicted_kwh": 9327.04
+    },
+    {
+      "month": "2026-02",
+      "actual_kwh": 6083.1,
+      "predicted_kwh": 6609.61
+    }
+  ],
+  "daily": {
+    "2026-03": [
+      {
+        "date": "2026-03-01",
+        "actual_kwh": 360.9
+      },
+      {
+        "date": "2026-03-02",
+        "actual_kwh": 416.4
+      },
+      {
+        "date": "2026-03-03",
+        "actual_kwh": 396.8
+      },
+      {
+        "date": "2026-03-04",
+        "actual_kwh": 382.1
+      },
+      {
+        "date": "2026-03-05",
+        "actual_kwh": 55.1
+      },
+      {
+        "date": "2026-03-06",
+        "actual_kwh": 157.9
+      },
+      {
+        "date": "2026-03-07",
+        "actual_kwh": 384.3
+      },
+      {
+        "date": "2026-03-08",
+        "actual_kwh": 268.1
+      },
+      {
+        "date": "2026-03-09",
+        "actual_kwh": 384.7
+      },
+      {
+        "date": "2026-03-10",
+        "actual_kwh": 378.3
+      },
+      {
+        "date": "2026-03-11",
+        "actual_kwh": 383.0
+      },
+      {
+        "date": "2026-03-12",
+        "actual_kwh": 373.0
+      },
+      {
+        "date": "2026-03-13",
+        "actual_kwh": 322.5
+      },
+      {
+        "date": "2026-03-14",
+        "actual_kwh": 279.5
+      },
+      {
+        "date": "2026-03-15",
+        "actual_kwh": 344.9
+      },
+      {
+        "date": "2026-03-16",
+        "actual_kwh": 340.8
+      },
+      {
+        "date": "2026-03-17",
+        "actual_kwh": 346.2
+      },
+      {
+        "date": "2026-03-18",
+        "actual_kwh": 179.0
+      },
+      {
+        "date": "2026-03-19",
+        "actual_kwh": 345.6
+      },
+      {
+        "date": "2026-03-20",
+        "actual_kwh": 250.5
+      },
+      {
+        "date": "2026-03-21",
+        "actual_kwh": 44.9
+      },
+      {
+        "date": "2026-03-22",
+        "actual_kwh": 327.1
+      },
+      {
+        "date": "2026-03-23",
+        "actual_kwh": 64.1
+      },
+      {
+        "date": "2026-03-24",
+        "actual_kwh": 120.0
+      },
+      {
+        "date": "2026-03-25",
+        "actual_kwh": 312.6
+      },
+      {
+        "date": "2026-03-26",
+        "actual_kwh": 311.7
+      },
+      {
+        "date": "2026-03-27",
+        "actual_kwh": 117.2
+      },
+      {
+        "date": "2026-03-28",
+        "actual_kwh": 292.5
+      },
+      {
+        "date": "2026-03-29",
+        "actual_kwh": 229.9
+        },
+      {
+        "date": "2026-03-30",
+        "actual_kwh": 86.5
+      }
+    ]
+  },
+  "today": {
+    "date": "",
+    "hourly_kw": []
+  }
+}
