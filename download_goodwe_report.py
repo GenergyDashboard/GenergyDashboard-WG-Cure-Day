@@ -57,11 +57,15 @@ def search_and_select_station(page, station_name):
 
     # Click the search icon (magnifying glass next to input)
     page.locator(".ant-input-suffix > .index-module_wrap_640bd > img").click()
-    human_delay(2, 3)
 
-    # Tick the checkbox for the result
+    # Wait longer for the tree to filter down to matching results
+    human_delay(3, 5)
+
+    # Tick the checkbox for the FIRST (filtered) result only.
+    # Using .first() avoids the strict-mode error when the tree still
+    # renders multiple nodes (e.g. unfiltered rows or group headers).
     try:
-        page.locator(".ant-tree-checkbox-inner").click(timeout=5000)
+        page.locator(".ant-tree-checkbox-inner").first.click(timeout=8000)
         print(f"    ✅ Selected: '{station_name}'")
     except Exception as e:
         print(f"    ⚠️  Could not select '{station_name}': {e}")
