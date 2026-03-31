@@ -1,0 +1,39 @@
+name: Solar Data Pipeline
+
+on:
+  schedule:
+    - cron: '0 3-19 * * *'  # Hourly 05:00-21:00 SAST (UTC+2)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          pip install pandas openpyxl playwright
+          playwright install chromium
+          playwright install-deps chromium
+      - name: Run scraper
+        env:
+          GOODWE_USERNAME: ${{ secrets.GOODWE_USERNAME }}
+          GOODWE_PASSWORD: ${{ secrets.GOODWE_PASSWORD }}
+        run: python download_goodwe_report.py
+      - name: Run processor
+        run: python process_report.py data/raw_report.xlsx
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/history.json
+          TIMESTAMP=$(TZ='Africa/Johannesburg' date '+%Y-%m-%d %H:%M SAST')
+          git diff --cached --quiet || git commit -m "📊 Data update: ${TIMESTAMP}"
+          git push
