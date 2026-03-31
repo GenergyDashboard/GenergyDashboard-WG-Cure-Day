@@ -1,0 +1,35 @@
+{
+  "site_name": "WG Cure Day Hospital",
+  "site_address": "8 St Helena Rd, Beacon Bay North, East London, 5241, South Africa",
+  "station_name_in_report": "WG Cure Day hospital",
+  "installed_kwp": 60,
+  "commissioning_date": "2024-08-11",
+  "system_start_year": 2024,
+  "system_start_month": 8,
+  "annual_degradation_pct": 0.5,
+  "tariffs": [
+    {
+      "from": "2024-01-01",
+      "to": "2024-06-30",
+      "rate": 1.38524
+    },
+    {
+      "from": "2024-07-01",
+      "to": "2025-06-30",
+      "rate": 2.14
+    },
+    {
+      "from": "2025-07-01",
+      "to": "2099-12-31",
+      "rate": 2.41
+    }
+  ],
+  "currency": "R",
+  "powered_by": "Milprops",
+  "powered_by_url": "",
+  "github": {
+    "owner": "",
+    "repo": "",
+    "data_path": "data/"
+  }
+}
