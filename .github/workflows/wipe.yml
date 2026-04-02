@@ -1,0 +1,27 @@
+name: Wipe All Data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  wipe:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Delete all data files
+        run: |
+          rm -f data/history.json data/processed.json data/alert_state.json
+          echo "🧹 Wiped all data files"
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add -A data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🧹 Wiped all data - $(date +'%Y-%m-%d %H:%M UTC')" && git push)
