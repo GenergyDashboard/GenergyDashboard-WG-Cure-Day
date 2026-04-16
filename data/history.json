@@ -285,11 +285,15 @@
       {
         "date": "2026-04-15",
         "actual_kwh": 219.8
+      },
+      {
+        "date": "2026-04-16",
+        "actual_kwh": 0
       }
     ]
   },
   "today": {
-    "date": "2026-04-15",
+    "date": "2026-04-16",
     "hourly_kw": [
       null,
       null,
@@ -299,17 +303,17 @@
       null,
       null,
       0.0,
-      11.66,
-      14.87,
-      17.73,
-      37.81,
-      38.4,
-      39.91,
-      28.22,
-      21.6,
-      7.3,
-      2.03,
-      0.32,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       null,
       null,
       null,
