@@ -320,7 +320,7 @@
       },
       {
         "date": "2026-04-24",
-        "actual_kwh": 0
+        "actual_kwh": 77.0
       }
     ]
   },
@@ -335,11 +335,11 @@
       null,
       null,
       0.0,
-      null,
-      null,
-      null,
-      null,
-      null,
+      13.47,
+      13.96,
+      15.69,
+      21.7,
+      12.14,
       null,
       null,
       null,
